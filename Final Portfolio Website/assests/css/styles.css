@@ -101,21 +101,25 @@ nav ul li {
 /* Navbar ends */
 
 /* Hero section */
-.hero {
+/* .hero {
   display: flex;
   align-items: center;
   justify-content: center;
   gap: 2.5rem;
   max-width: 68.75rem;
   margin: auto;
-}
+} */
 
-.hero img {
-  height: 37.5rem;
-  width: 100rem;
+.hero-img {
+  height: 90vh;
+  width: 100%;
+  object-fit: cover;
 }
 
 .bio {
+  position: absolute;
+  right: 10%;
+  top: 50%;
   width: 25rem;
   padding: 0.625rem;
   border-radius: 6px;
